@@ -6,5 +6,6 @@ package com.example.ejtho.androidprojecttwo;
  */
 
 public class constants {
-
+    static int cameraPermission = 100;
+    static int filePermission = 200;
 }
