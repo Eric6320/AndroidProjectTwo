@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/goback_button"
+        android:icon="@drawable/goback"
+        android:title="@string/goback_string"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/pencil_button"
+        android:icon="@drawable/pencil"
+        android:title="@string/pencil_string"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/eye_button"
+        android:icon="@drawable/eye"
+        android:title="@string/eye_string"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/link_button"
+        android:icon="@drawable/link"
+        android:title="@string/link_string"
+        app:showAsAction="always"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android Project Two</string>
+    <string name="goback_string">Reset to Default Image in Drawable Folder</string>
+    <string name="pencil_string">Make image into a black and white sketch</string>
+    <string name="eye_string">Colorize Sketched Image</string>
+    <string name="link_string">Share Image with Pals</string>
 </resources>
